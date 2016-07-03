@@ -228,10 +228,6 @@ class Analyser
                                 unset($d_sub_desc_attr['maxlength']);
                                 unset($d_sub_desc_attr['required']);
                                 unset($d_sub_desc_attr['length']);
-                                if (!empty($d_sub_desc_attr)) {
-                                    var_dump($d_sub_desc_attr);
-                                }
-
                             }
                         }
                         $jsonelements[$d_desc_attr['name']] = $jsoncomposite;
